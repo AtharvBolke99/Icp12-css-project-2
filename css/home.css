@@ -314,6 +314,11 @@ body {
     text-align: start;
 }
 
+.info:hover {
+    color: #19c880;
+    transition: 0.2s;
+}
+
 .original-price {
     display: inline-block;
     font-weight: bolder;
@@ -412,7 +417,6 @@ body {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    /* padding: 50px; */
     
 }
 
@@ -526,10 +530,6 @@ body {
 
 }
 
-.info:hover {
-    color: #19c880;
-    transition: 0.2s;
-}
 
 @media (min-width:768px) and (max-width:992px){
 
